@@ -8,7 +8,12 @@
   <style></style>
 
   <script src="script.js"></script>
-  
+  const linkElement = document.getElementById("ar-link");
+linkElement.addEventListener("message", function (event) {   
+    if (event.data == "_apple_ar_quicklook_button_tapped") {
+        // handle the user tap.   
+    }
+}, false);
   <script></script>
 </head>
 
